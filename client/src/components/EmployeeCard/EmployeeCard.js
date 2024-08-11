@@ -14,7 +14,6 @@ function EmployeeCard({ _id, name, age, address, phone, email, branch, photo, cr
       toast.error('Failed to delete employee')
     }
   }
-
   return (
     <div className='employee-card'>
       <img src={photo} alt="" className='photo'/>
@@ -39,5 +38,4 @@ function EmployeeCard({ _id, name, age, address, phone, email, branch, photo, cr
     </div>
   )
 }
-
 export default EmployeeCard
