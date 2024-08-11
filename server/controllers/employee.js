@@ -1,5 +1,6 @@
-import Employee from "../models/Employee.js";
+
 import User from "../models/User.js";
+import Employee from "../models/Employee.js"
 
 const postEmployee = async(req, res)=>{
     const {name, age,  address, phone, email, branch, photo, user} = req.body;
@@ -35,7 +36,6 @@ const postEmployee = async(req, res)=>{
 
 const getEmployees = async(req, res)=>{
     const {userId} = req.query;
-
     const user = await User.findById(userId)
 
     if(!user){

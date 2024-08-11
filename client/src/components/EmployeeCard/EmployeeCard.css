@@ -1,0 +1,64 @@
+/* EmployeeCard.css */
+
+.employee-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  
+  .name {
+    font-size: 1.5em;
+    margin: 8px 0;
+  }
+  
+  .age {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .email, .branch, .phone, .date, .address {
+    font-size: 1em;
+    margin: 4px 0;
+  }
+  .date{
+    color: red;
+  }
+  .branch{
+    font-weight: bold;
+  }
+  .phone{
+    color: green;
+  }
+
+  
+  .delete-button {
+    background-color: rgb(250, 12, 12);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
