@@ -23,7 +23,6 @@ function Home() {
     if (!user?._id) { // Check if user._id exists
       return
     }
-
     toast.loading('Loading Employees Details...')
 
     try {
@@ -36,7 +35,6 @@ function Home() {
       toast.error('Failed to load employees')
     }
   }
-
   useEffect(() => {
     if (user) {
       loadEmployees()
@@ -94,5 +92,4 @@ function Home() {
     </div>
   )
 }
-
 export default Home

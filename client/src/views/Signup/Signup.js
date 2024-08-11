@@ -20,7 +20,7 @@ function Signup() {
         })
 
         if (response.data.success) {
-            toast.success("Signup Successful")
+            toast.success("Signup Successful✅")
 
             setUser({
                 fullName: "",
