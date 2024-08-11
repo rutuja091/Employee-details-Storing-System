@@ -25,7 +25,7 @@ connectDB();
 
 app.get("/", (req, res)=>{
     res.json({
-        message: "Hello from server"
+        message: "Welcome to Employee Details Storing System "
     })
 })
 
